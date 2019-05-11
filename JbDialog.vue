@@ -2,10 +2,10 @@
     <v-dialog v-model="mostrar" :fullscreen="fullscreen" :persistent="persistent" :max-width="maxWidth || '750px'">
 
         <v-card>
-            <v-card-title> 
-                <span class="headline">{{ getTitulo }}</span> 
+            <v-card-title>
+                <span class="headline">{{ getTitulo }}</span>
                 <v-spacer></v-spacer>
-                <jb-icone v-if="this.$listeners.fechar" tt-text="Fechar" @click="v=>(this.$emit('fechar', false))">fas fa-times</jb-icone>
+                <jb-icon v-if="this.$listeners.fechar" tt-text="Fechar" @click="v=>(this.$emit('fechar', false))">fas fa-times</jb-icon>
             </v-card-title>
 
             <v-card-text>
@@ -19,11 +19,11 @@
 </template>
 
 <script>
-    
+
     export default {
         props:{
-            value:Boolean, 
-            persistent:Boolean, fullscreen:Boolean, maxWidth:String, titulo:String, 
+            value:Boolean,
+            persistent:Boolean, fullscreen:Boolean, maxWidth:String, titulo:String,
         },
         data() {
             return {

@@ -1,1 +1,1 @@
-Vue.component('jb-v-dialog', require('./JbDialog.vue').default);
+Vue.component('jb-dialog', require('./JbDialog.vue').default);
