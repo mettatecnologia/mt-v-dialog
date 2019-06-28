@@ -1,6 +1,6 @@
 {
-  "name": "jb-v-dialog",
-  "version": "1.0.0",
+  "name": "@metta/mt-v-dialog",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbmchd/jb-v-dialog.git"
+    "url": "git+https://github.com/mettatecnologia/mt-v-dialog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jbmchd/jb-v-dialog/issues"
+    "url": "https://github.com/mettatecnologia/mt-v-dialog/issues"
   },
-  "homepage": "https://github.com/jbmchd/jb-v-dialog#readme"
+  "homepage": "https://github.com/mettatecnologia/mt-v-dialog#readme"
 }
