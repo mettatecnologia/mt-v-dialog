@@ -25,9 +25,10 @@
             value:Boolean,
             persistent:Boolean, fullscreen:Boolean, maxWidth:String, titulo:String,
         },
-        data() { return {
-
-        }},
+        data() {
+            return {
+            }
+        },
         computed:{
             getTitulo(){ return this.titulo },
             mostrar(){ return this.value }

@@ -1,6 +1,6 @@
 {
-  "name": "jb-v-dialog",
-  "version": "1.0.2",
+  "name": "@jbmchd-vue/jb-v-dialog",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/jbmchd/jb-v-dialog/issues"
   },
-  "homepage": "https://github.com/jbmchd/jb-v-dialog#readme",
-  "dependencies": {
-    "jb-v-icon": "^1.0.0"
-  }
+  "homepage": "https://github.com/jbmchd/jb-v-dialog#readme"
 }
