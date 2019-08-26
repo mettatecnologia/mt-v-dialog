@@ -1,5 +1,5 @@
 <template>
-    <v-dialog v-model="mostrar" :fullscreen="fullscreen" :persistent="persistent" :max-width="maxWidth || '750px'">
+    <v-dialog v-model="mostrar" :fullscreen="fullscreen" :persistent="persistent" :max-width="maxWidth">
 
         <v-card>
             <v-card-title>
