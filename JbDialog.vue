@@ -1,5 +1,5 @@
 <template>
-    <v-dialog v-model="mostrar" :fullscreen="fullscreen" :persistent="persistent" :max-width="maxWidth">
+    <v-dialog v-model="mostrar" :fullscreen="fullscreen" :persistent="persistent" :max-width="maxWidth" :ref="vuetify_ref">
 
         <v-card>
             <v-card-title>
@@ -31,7 +31,10 @@
         },
         computed:{
             getTitulo(){ return this.titulo },
-            mostrar(){ return this.value }
+            mostrar(){ return this.value },
+            vuetify_ref(){
+                return this.ref || 'v-dialog'
+            }
         }
     }
 </script>
